@@ -1,0 +1,51 @@
+ALGORITHM algorithm1
+VAR
+    str:STRING[];
+    i,j,k:INTEGER;
+BEGIN
+    write("donner une chaine de caractere")
+    read(ch);
+    FOR i FROM 0 TO ch.length STEP 1  DO
+        IF (ToUpper.(ch[i])=["A","E","I","Y","U","O"]) THEN
+            i=i+1
+            read("nombre de voyelle est ",i,);
+        END_IF
+    END_FOR
+    FOR i FROM 0 TO ch.length STEP 1  DO
+        IF (isalnum.(ch[j]) and ch[j]=" ") THEN
+            j=j+1    
+        END_IF
+    END_FOR
+    
+
+    
+        
+END
+
+
+
+ALGORITHM algorritm2
+VAR
+    tab : ARRAY_OF INTEGER[];
+    tab1 : ARRAY_OF INTEGER[];
+    i,j,k ,l: INTEGER;
+    element distinct :ARRAY_OF INTEGER
+    sum:=0
+BEGIN
+    FOR i FROM 0 TO nombre DO
+        Read(tab[i]);
+    END_FOR
+    FOR j FROM 0 TO nombre DO
+        Read(tab1[j]);
+    END_FOR
+    FOR k  FROM 0 TO nombre STEP  DO
+        IF (tab[k] not in tab1[j]) THEN
+            tab[k].add( element distinct)
+    END_FOR
+    FOR l  FROM 0 TO nombre STEP  DO
+        IF (tab1[l] not in tab[i]) THEN
+            tab[l].add( FOR k  FROM 0 TO nombre STEP  DO
+        
+    
+    END_FOR
+    sum=sum(element distinct)
